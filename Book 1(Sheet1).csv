@@ -1,0 +1,10 @@
+,id,name,linktext,Tag and ID(tag#id),Tag and Class(tag#class),Tag and Attribute(tag[attribute = value]),"Tag,Class and Attribute",inner Text,Absolutexpath
+First Name,input-firstname,firstname,NA,input#input-firstname,input.form-control,input[name='firstname'],input.form-control[name='firstname'],,/html/body/div[2]/div[1]/div[1]/form/fieldset[1]/div[2]//input
+Last Name,input-lastname,lastname,NA,input#input-lastname,input.form-control,input[name='lastname'],input.form-control[name='lastname'],,/html/body/div[2]/div[1]/div[1]/form/fieldset[1]/div[3]//input
+Email,input-email,email,NA,input#input-email,input.form-control, input[name='email'],input.form-control[name='email'],,/html/body/div[2]/div[1]/div[1]/form/fieldset[1]/div[4]//input
+TelePhone,input-telephone,telephone,NA,input#input-telephone,input.form-control,input[name='telephone'],input.form-control[name='telephone'],,/html/body/div[2]/div[1]/div[1]/form/fieldset[1]/div[5]//input
+Password,input-password,password,NA,input#input-password,input.form-control,"input[name=""password""]",input.form-control[name='password'],,/html/body/div[2]/div[1]/div[1]/form/fieldset[2]/div[1]//input
+Confirm Password,input-confirm,confirm,NA,input#input-confirm,input.form-control, input[name='confirm'],input.form-control[name='confirm'],,/html/body/div[2]/div[1]/div[1]/form/fieldset[2]/div[2]//input
+Subscribe,NA,newsletter,NA,input#input-subscribe,NA, input[name='newsletter'],input.[name='newsletter'],,/html/body/div[2]/div[1]/div[1]/form/fieldset[3]/div[1]/div[1]//*//*
+Privacy Policy,NA,agree,policy,input#input-privacy,NA, input[name='agree'],input.[name='agree'],,/html/body/div[2]/div[1]/div[1]/form/div[1]/div[1]/a
+Continue,NA,NA,NA,input#input-email,input.btn.btn-primary,"input[type=""submit""]","input.btn.btn-primary[type=""submit""]",,/html/body/div[2]/div[1]/div[1]/form/div[1]/div[1]//*[@class='btn btn-primary']
